@@ -4,6 +4,7 @@
  */
 
 import Ember from 'ember';
+import Intl from '../utils/intl-global';
 import createFormatCache from 'intl-format-cache';
 
 import Formatter from './-base';

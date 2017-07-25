@@ -1,4 +1,4 @@
-/* globals requirejs, Intl */
+/* globals requirejs */
 
 /**
  * Copyright 2015, Yahoo! Inc.
@@ -6,6 +6,7 @@
  */
 
 import Ember from 'ember';
+import Intl from '../utils/intl-global';
 import IntlMessageFormat from 'intl-messageformat';
 import IntlRelativeFormat from 'intl-relativeformat';
 
